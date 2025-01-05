@@ -21,3 +21,11 @@ public class PracticeQuestion {
         System.out.println("Bil is : "+bill);
     }
 }
+
+/*
+ * Output-
+Enter the cost of pencil : 2.5
+Enter the cost of pen : 5.0
+Enter the cost of eraser : 5.0
+Bil is : 14.75
+ */
