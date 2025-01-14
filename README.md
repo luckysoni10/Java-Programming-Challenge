@@ -15,8 +15,8 @@ The repository is organized into weekly folders, each covering specific topics o
 
 | Week        | Topics Covered                                         | Folder Link                 |
 |-------------|--------------------------------------------------------|-----------------------------|
-| **Week 1**  | Variables, Data Types, Conditional Statements,Operators| [Week 01](./Week_01)        |
-| **Week 2**  | [To be updated]                                        | [Week 02](./Week_02)        |
+| **Week 1**  | Variables, Data Types, Conditional Statements, Operators| [Week 01](./Week_01)        |
+| **Week 2**  | Loops, ......[To be updated]                                        | [Week 02](./Week_02)        |
 
 ---
 
