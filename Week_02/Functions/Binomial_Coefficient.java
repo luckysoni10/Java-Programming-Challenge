@@ -28,7 +28,7 @@ class Binomial_Coefficient {
         
     }
 }
-Output-
-Enter n : 5
-Enter r : 2
-binomial Coefficient is : 10
+// Output-
+// Enter n : 5
+// Enter r : 2
+// binomial Coefficient is : 10
