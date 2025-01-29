@@ -17,44 +17,49 @@ public class SubArray {
     }
 
     public static void printSubarray(int arr[]) {
+        int totalSubArray = 0;
         System.out.println("Sub Arrays:-");
         for(int i=0; i<arr.length; i++) {
             for(int j=i; j<arr.length; j++) {
                 for(int k=i; k<=j; k++) {
                     System.out.print(arr[k]+" ");
                 }
+                totalSubArray++;
                 System.out.println();
             }
             System.out.println();
         }
+        System.out.println("Total Sub Array = "+totalSubArray);
     }
 }
 
 // Output-
 // Enter the size of array: 5
 // Enter the elements into array:
-// 1
 // 2
-// 3
 // 4
-// 5
+// 6
+// 8
+// 10
 // Sub Arrays:-
-// 1 
-// 1 2
-// 1 2 3
-// 1 2 3 4 
-// 1 2 3 4 5
-
-// 2
-// 2 3 
-// 2 3 4
-// 2 3 4 5
-
-// 3 
-// 3 4
-// 3 4 5
+// 2 
+// 2 4
+// 2 4 6
+// 2 4 6 8
+// 2 4 6 8 10
 
 // 4
-// 4 5
+// 4 6
+// 4 6 8
+// 4 6 8 10 
 
-// 5
+// 6
+// 6 8
+// 6 8 10 
+
+// 8
+// 8 10
+
+// 10
+
+// Total Sub Array = 15
