@@ -1,6 +1,7 @@
 /* You are given an array prices where price[i] stock on the ith day.
 You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock return the maximum profit you can achieve from this transaction. 
-if you cannot achieve any profit, return 0. */
+if you cannot achieve any profit, return 0. 
+*/
 import java.util.*;
 public class BuyAndSell_Stock {
     public static void main(String[] args) {
