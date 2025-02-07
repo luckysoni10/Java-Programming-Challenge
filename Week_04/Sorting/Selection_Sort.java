@@ -9,7 +9,7 @@ public class Selection_Sort {
         for(int i=0; i<n; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Sorted array by bubble sort is : ");
+        System.out.println("Sorted array by selection sort is : ");
         selectionSort(arr);
         printArr(arr);
     }
@@ -41,5 +41,5 @@ public class Selection_Sort {
 // 1
 // 7 
 // 5
-// Sorted array by bubble sort is :
+// Sorted array by selection sort is :
 // 1  4  5  6  7  
