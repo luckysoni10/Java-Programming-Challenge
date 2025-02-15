@@ -12,12 +12,12 @@ public class CopyConstructor {
         s2.password = "xyz";
         
         s1.marks[2] = 0; //are are changing the marks in first obj but when we will print the marks it will show change in copy cons. marks, bcz we are giving the reference of memory in copy cons. not value that's why when we change the value so it will affect copy cons vlue. (to overcome this we study shallow and deep copy).
-
+        
         for(int i=0; i<3; i++) {
             System.out.println(s2.marks[i]);
         }
-
-        //Output- 100, 69, 0
+        //shallow copy cons. Output- 100, 69, 0
+        //deep copy cons. output- 100, 69, 99
     }   
 }
 
@@ -30,11 +30,22 @@ class Student {
     Student(){
         marks = new int[3];
     }
-    //copy constructor 
+    //shallow copy constructor 
+    // Student(Student s1) {
+    //     marks = new int[3];
+    //     this.name = s1.name;
+    //     this.roll = s1.roll;
+    //     this.marks = s1.marks;
+    // } 
+
+    //deep copy constructor 
     Student(Student s1) {
         marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
-        this.marks = s1.marks;
+        for(int i=0; i<marks.length; i++) {
+            this.marks[i] = s1.marks[i];
+        }
     } 
+
 }
