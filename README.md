@@ -19,6 +19,7 @@ The repository is organized into weekly folders, each covering specific topics o
 | **Week 2**  | Loops, Functions, Patterns                              | [Week 02](./Week_02)       |
 | **Week 3**  | Arrays                                                  | [Week 03](./Week_03)       |     
 | **Week 4**  | Sorting, 2D Array, Strings                              | [Week 04](./Week_04)       |
+| **Week 5**  | Bit Manipulation, OOPs                                  | [Week 05](./Week_05/)      |
 
 ---
 
